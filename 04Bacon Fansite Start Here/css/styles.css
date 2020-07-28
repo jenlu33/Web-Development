@@ -1,0 +1,16 @@
+body {
+  background-color: #eeecda;
+}
+
+h1 {
+  color: #f08a5d;
+  font-size: 100px;
+}
+
+img {
+  background-color: red;
+}
+
+img:hover {
+  background-color: gold;
+}

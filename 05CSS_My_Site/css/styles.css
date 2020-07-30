@@ -1,3 +1,99 @@
 body {
-  background-color: blue;
+  margin: 0;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
+
+h1 {
+  font-size: 5rem;
+  margin: 50px auto 0;
+  font-family: 'Indie Flower', cursive;
+}
+
+h1, h2 {
+  color: #66BFBF;
+}
+
+h3, a {
+  color: #11999E;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.welcome {
+  font-family: 'Indie Flower', cursive;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+.top {
+  background-color: #c9ecf7;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 40px;
+  left: 650px
+}
+
+.bottom-cloud {
+  position: absolute;
+}
+
+.skill-row {
+  margin: 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.computer {
+  width: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.sleeping {
+  width: 50%;
+  object-fit: fill;
+  float: right;
+  margin-left: 30px;
+}
+
+/* .sleep-description {
+  clear: right;
+} */
+
+p {
+  color: #40514E;
+}
+
+hr {
+  border: none;
+  border-top: 5px dotted #c6d1d1;
+  width: 5%;
+}
+
+.bottom {
+  background-color: #66BFBF;
+  margin-bottom: 0;
+  margin-top: 20px;
+  padding: 20px 0;
+}
+
+.bottom > p {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  margin: 0;
+}
+
+.bottom > a {
+  text-decoration: none;
+  line-height: 3;
+  padding: 10px
+}
+

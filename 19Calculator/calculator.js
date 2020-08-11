@@ -20,5 +20,16 @@ app.post("/", (req, res) => {
   res.send(`The result of the calculation is ${result}`)
 })
 
+app.get("/bmi", (req, res) => {
+  res.sendFile(__dirname + "/bmi.html");
+})
+
+app.post("/bmi", (req, res) => {
+  let weight = Number(req.body.weight);
+  let height = Number(req.body.height);
+  let bmi = Math.round(weight / (height * height));
+  res.send(`Your BMI is ${bmi}`);
+})
+
 app.listen(3000, () => console.log("server started on port 3000"));
  

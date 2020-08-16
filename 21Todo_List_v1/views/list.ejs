@@ -1,0 +1,20 @@
+<%- include("header") -%>
+  <div class="box" id="heading">
+    <h1><%= listTitle %>!</h1>
+  </div>
+
+  <div class="box">
+    <% newItems.map(item => { %>
+      <div class="item">
+        <input type="checkbox" name="" id="">
+        <p><%= item %></p>
+      </div>
+      <% }) %>
+      
+    <form action="/" method="POST">
+      <input type="text" name="newTodo" placeholder="new todo" autocomplete="off">
+      <button type="submit" name="list" value=<%= listTitle %>>+</button>
+    </form>
+  </div>  
+
+  <%- include("footer") -%>
